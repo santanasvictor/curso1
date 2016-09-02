@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Theme Template for Bootstrap</title>
+    <title>Contatos</title>
 
    
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -58,6 +58,11 @@
           <form name="cadastroContato" method="POST" action="negocio/contato.php">
 
           <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Nome" name="nome">
+          </div>
+
+          <div class="form-group">
             <label for="email">Email</label>
             <input type="email" class="form-control" id="email" placeholder="Email" name="email">
           </div>
@@ -67,12 +72,14 @@
             <input type="text" class="form-control" id="mensagem" placeholder="Mensagem" name="mensagem">
           </div>
 
-          <div class="form-group">
-            <label for="assunto">Assunto</label>
-            <input type="text" class="form-control" id="assunto" placeholder="Assunto" name="assunto">
+          <label for="assunto">Assunto</label>
+          
+          <div class="form-group">                         
+          <textarea for="assunto" placeholder="Diga qual o assunto?"></textarea>
           </div>
 
-          <button type="submit" class="btn btn-default">Tem Certeza?</button>
+          <button type="submit" class="btn btn-default">Enviar</button>
+
            </form>
 
           </div>

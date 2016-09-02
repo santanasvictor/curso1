@@ -45,8 +45,7 @@ require_once('../db/config/database.php');
 
     if ($salvar){
 
-    	echo "Registro cadastrado com sucesso";
-    
+    	echo "Registro Cadastrado com Sucesso"  
     	exit;
     };
 
